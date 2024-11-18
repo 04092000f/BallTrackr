@@ -13,7 +13,7 @@ If the application looses tracking, we continue looking for the next `n` frames 
 **Pre-requisites**
 
 - Download the **yolov3** weights file from [here](https://drive.google.com/file/d/1CT_uOn_Ja35WHYjrXHiEf99p7ygcMX3G/view?usp=sharing)
-- Download the input video file from [here]([url](https://drive.google.com/file/d/1Y8JWb09jndGwXC1X-d6PQXBm8XXsS1KI/view?usp=sharing))
+- Download the input video file from [here](https://drive.google.com/file/d/1Y8JWb09jndGwXC1X-d6PQXBm8XXsS1KI/view?usp=sharing)
 
 Once these files are downloaded, one can start the application by running:
 
