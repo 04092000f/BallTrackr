@@ -1,4 +1,3 @@
-# <img src = "https://opencv.org/wp-content/uploads/2021/06/OpenCV_logo_black_.png">
 # Detection and Tracking
 
 In this project, we have created a **Video Analysis** application that performs object detection as well as object tracking. 
