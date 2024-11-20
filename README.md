@@ -23,7 +23,7 @@ This project implements a **Video Analysis** application capable of detecting an
 To get started, ensure the following dependencies and files are set up:
 
 ### **Dependencies**
-- Python 3.8+
+- Python 3.x Installed
 - Required Python packages **OpenCV**(using `pip install` command):  
   ```bash
   pip install opencv-contrib-python
