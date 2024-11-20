@@ -1,27 +1,37 @@
-# Detection and Tracking
+# **Soccer Ball Detection and Tracking**
 
-In this project, we have created a **Video Analysis** application that performs object detection as well as object tracking. 
+This project implements a **Video Analysis** application capable of detecting and tracking a soccer ball in a video. The application combines object detection using **YOLOv3** and object tracking using the **KCF** tracker to achieve accurate and efficient tracking.
 
-Specifically, the application performs 2 tasks:
+---
 
-1. Detecting the soccer ball using **YOLOv3**.
-2. Perform tracking using **KCF** tracker.
+## **Features**
 
-If the application looses tracking, we continue looking for the next `n` frames (in our case, `n`is set to `10`) until the detector is able to detect the soccer ball again. Subsequently, the tracker then takes over for tracking it further.
+1. **Soccer Ball Detection**  
+   The application utilizes **YOLOv3** for robust object detection, specifically targeting the soccer ball.
 
-**Pre-requisites**
+2. **Object Tracking**  
+   Once detected, the soccer ball is tracked using the **KCF (Kernelized Correlation Filters)** tracker for efficient real-time performance.
 
-- Download the **yolov3** weights file from [here](https://drive.google.com/file/d/1CT_uOn_Ja35WHYjrXHiEf99p7ygcMX3G/view?usp=sharing)
-- Download the input video file from [here](https://drive.google.com/file/d/1Y8JWb09jndGwXC1X-d6PQXBm8XXsS1KI/view?usp=sharing)
+3. **Recovery Mechanism**  
+   - If the tracker loses the soccer ball, the application continues detection for the next `n` frames (default: `n=10`).  
+   - Upon successful detection, tracking resumes seamlessly.
 
-Once these files are downloaded, one can start the application by running:
+---
 
+## **Pre-requisites**
+
+To get started, ensure the following dependencies and files are set up:
+
+### **Dependencies**
+- Python 3.8+
+- Required Python packages (install via `requirements.txt`):  
+  ```bash
+  pip install opencv-contrib-python
 `python detect-track.py`
 
+---
 
-A sample video output is shown below.
-
-
+## Final Output
 ![c1_project2_detection_and_tracking](./output.gif)
 
 
