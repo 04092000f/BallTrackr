@@ -1,4 +1,4 @@
-# **Soccer Ball Detection and Tracking**
+# **BallTrackr**
 
 This project implements a **Video Analysis** application capable of detecting and tracking a soccer ball in a video. The application combines object detection using **YOLOv3** and object tracking using the **KCF** tracker to achieve accurate and efficient tracking.
 
