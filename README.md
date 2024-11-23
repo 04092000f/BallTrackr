@@ -30,7 +30,7 @@ To get started, ensure the following dependencies and files are set up:
 
 - Download **YOLOV3** Weights file from [here](https://drive.google.com/file/d/1CT_uOn_Ja35WHYjrXHiEf99p7ygcMX3G/view?usp=sharing)
 
-- Download **Input** Video file from [here]([url](https://drive.google.com/file/d/1Y8JWb09jndGwXC1X-d6PQXBm8XXsS1KI/view?usp=sharing))
+- Download **Input** Video file from [here](https://drive.google.com/file/d/1Y8JWb09jndGwXC1X-d6PQXBm8XXsS1KI/view?usp=sharing)
 
  Once all the required sofwares, files and libraries are downloaded installed, finally run the application using: 
    `python detect-track.py`
