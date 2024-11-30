@@ -40,6 +40,3 @@ python detect-track.py
 ## Final Output
 - The application processes the video and highlights the soccer ball as it moves through the frames. Here's an example of the output:
 ![c1_project2_detection_and_tracking](./output.gif)
-
-
----
